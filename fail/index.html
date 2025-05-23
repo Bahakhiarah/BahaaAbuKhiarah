@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bahaa Abu Khiarah</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="initPage()">
+  <header class="hero">
+    <div class="overlay">
+      <h1 id="name" class="typing"></h1>
+      <p data-i18n="subtitle">Creative Frontend Developer</p>
+      <button onclick="switchLanguage()">🌐 Switch / تبديل</button>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <a href="#about" data-i18n="about">About</a>
+    <a href="#skills" data-i18n="skills">Skills</a>
+    <a href="#portfolio" data-i18n="portfolio">Portfolio</a>
+    <a href="#contact" data-i18n="contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about" class="section card">
+      <h2 data-i18n="aboutTitle">About Me</h2>
+      <p data-i18n="aboutText">I am Bahaa Abu Khiarah, a passionate frontend developer with a love for clean design.</p>
+    </section>
+
+    <section id="skills" class="section card">
+      <h2 data-i18n="skillsTitle">Skills</h2>
+      <ul class="skills">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Design</li>
+        <li>Animations</li>
+      </ul>
+    </section>
+
+    <section id="portfolio" class="section card">
+      <h2 data-i18n="portfolioTitle">Portfolio</h2>
+      <p data-i18n="portfolioText">Coming soon with amazing projects!</p>
+    </section>
+
+    <section id="contact" class="section card">
+      <h2 data-i18n="contactTitle">Contact Me</h2>
+      <p data-i18n="contactText">Email: PPX198@GMAIL.COM</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Bahaa Abu Khiarah</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
